@@ -20,7 +20,7 @@ public class App {
             System.out.println("Palavra \"" + palavra + "\" encontrada na categoria " + categoria + ".");
             return true;
         } else {
-            System.out.println("Palavra \"" + palavra + "\" NÃO encontrada na categoria " + categoria + ".");
+            System.out.println("Palavra \"" + palavra + "\" NÃO encontrada. " );
             return false;
         }
     }
@@ -52,7 +52,7 @@ public class App {
         
         while (true) {
             System.out.println("\nDigite a palavra que você deseja buscar (somente letras) ou 0 para sair: ");
-            String palavraParaBuscar = scanner.nextLine(); // Recebe a palavra do usuário
+            String palavraParaBuscar = scanner.nextLine(); 
 
             if (palavraParaBuscar.equals("0")) {
                 System.out.println("Saindo do programa.");

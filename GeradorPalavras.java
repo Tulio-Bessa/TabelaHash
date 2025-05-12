@@ -13,7 +13,7 @@ public class GeradorPalavras {
             palavra.append(letra);
         }
 
-        return palara.toString();
+        return palavra.toString();
     }
 
     public static void main(String[] args) {
